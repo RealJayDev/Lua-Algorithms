@@ -1,0 +1,30 @@
+{
+  "name": "Rainbow",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Source": {
+        "$path": "src/Shared"
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "Source": {
+        "$path": "src/Client"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Source": {
+        "$path": "src/Server"
+      }
+    }
+  }
+}
